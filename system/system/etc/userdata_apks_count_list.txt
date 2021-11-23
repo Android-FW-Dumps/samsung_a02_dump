@@ -1,0 +1,10 @@
+/data/app/LinkedIn_SamsungStub_Deletable/LinkedIn_SamsungStub_Deletable.apk
+/data/app/Drive/Drive.apk
+/data/app/Photos/Photos.apk
+/data/app/OfficeMobile_SamsungStub/OfficeMobile_SamsungStub.apk
+/data/app/Duo/Duo.apk
+/data/app/Spotify/Spotify.apk
+/data/app/Videos/Videos.apk
+/data/app/SamsungDotCom/SamsungDotCom.apk
+/data/app/YTMusic/YTMusic.apk
+/data/app/SecCalculator_R/SecCalculator_R.apk

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <library name="verizon.net.sip" file="/system/framework/verizon.net.sip.jar"/>
+</permissions>

@@ -1,0 +1,4 @@
+# dropcachemgr rc file
+
+on property:sys.drop_caches=*
+    write /proc/sys/vm/drop_caches ${sys.drop_caches}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The source code provided herein is for optimizing power and performance of gaming software
+and certain applications (e.g. Sina Weibo, QQ) only and should not be used and/or included in
+any software that is unrelated to enhancing end-user experience. -->
+ <WHITELIST>
+    <Package name="com.tencent.tmgp.sgame">
+        <Activity name="Common">
+            <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="25000"></data>
+            <data cmd="PERF_RES_FPS_FBT_FLOOR_BOUND" param1="1"></data>
+            <data cmd="PERF_RES_FPS_FBT_KMIN" param1="10"></data>
+        </Activity>
+    </Package>
+    <Package name="com.king.candycrushsaga">
+        <Activity name="Common">
+            <data cmd="PERF_RES_FPS_FBT_KMIN" param1="10"></data>
+        </Activity>
+    </Package>
+    <Package name="com.android.settings">
+        <Activity name="com.android.settings.SubSettings">
+            <data cmd="PERF_RES_FPS_FBT_BHR_OPP" param1="15"></data>
+            <data cmd="PERF_RES_DRAM_VCORE_MIN" param1="0"></data>
+        </Activity>
+    </Package>
+ </WHITELIST>

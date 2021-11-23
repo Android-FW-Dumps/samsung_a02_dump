@@ -1,0 +1,345 @@
+{
+  "Hints": [
+    {
+      "Hint": "AMS_RESUME",
+      "ID" : "1",
+      "Duration" : "-1",
+      "ResoureList": [
+        {
+            "Resource" : "CPUMinFreq",
+            "Value" : "1378000"
+        }
+      ]
+    },
+    {
+      "Hint": "AMS_RELAUNCH_RESUME",
+      "ID" : "2",
+      "Duration" : "500",
+      "ResoureList": [
+        {
+            "Resource" : "CPUMinFreq",
+            "Value" : "1378000"
+        }
+      ]
+    },
+    {
+      "Hint": "AMS_ACT_RESUME",
+      "ID" : "3",
+      "Duration" : "-1",
+      "ResoureList": [
+        {
+            "Resource" : "CPUMinFreq",
+            "Value" : "1378000"
+        }
+      ]
+    },
+    {
+      "Hint": "AMS_ACT_START",
+      "ID" : "4",
+      "Duration": "-1",
+      "ResoureList": [
+        {
+            "Resource" : "CPUMinFreq",
+            "Value" : "100%"
+        },
+        {
+            "Resource" : "GPUMinFreq",
+            "Value" : "100%"
+        },
+        {
+            "Resource" : "DDRMinFreq",
+            "Value" : "0"
+        }
+      ]
+    },
+    {
+      "Hint": "AMS_RESUME_TAIL",
+      "ID" : "5",
+      "Duration": "800",
+      "ResoureList": [
+        {
+            "Resource" : "CPUMinFreq",
+            "Value" : "1378000"
+        }
+      ]
+    },
+    {
+      "Hint": "AMS_ACT_SWITCH",
+      "ID" : "7",
+      "Duration": "-1",
+      "ResoureList": [
+        {
+            "Resource" : "CPUMinFreq",
+            "Value" : "100%"
+        },
+        {
+            "Resource" : "GPUMinFreq",
+            "Value" : "100%"
+        },
+        {
+            "Resource" : "DDRMinFreq",
+            "Value" : "0"
+        }
+      ]
+    },
+    {
+      "Hint": "AMS_APP_HOME",
+      "ID" : "8",
+      "Duration": "800",
+      "ResoureList": [
+        {
+            "Resource" : "CPUMinFreq",
+            "Value" : "100%"
+        },
+        {
+            "Resource" : "DDRMinFreq",
+            "Value" : "0"
+        },
+        {
+            "Resource" : "GPUMinFreq",
+            "Value" : "570000"
+        }
+      ]
+    },
+    {
+      "Hint": "GALLERY_TOUCH",
+      "ID" : "9",
+      "Duration": "-1",
+      "ResoureList": [
+        {
+            "Resource" : "CPUMinFreq",
+            "Value" : "1378000"
+        }
+      ]
+    },
+    {
+      "Hint": "GALLERY_TOUCH_TAIL",
+      "ID" : "10",
+      "Duration": "500",
+      "ResoureList": [
+        {
+            "Resource" : "CPUMinFreq",
+            "Value" : "1378000"
+        }
+      ]
+    },
+    {
+      "Hint": "GALLERY_SCROLL",
+      "ID" : "11",
+      "Duration": "-1",
+      "ResoureList": [
+        {
+            "Resource" : "CPUMinFreq",
+            "Value" : "1378000"
+        }
+      ]
+    },
+    {
+      "Hint": "LAUNCHER_TOUCH",
+      "ID" : "12",
+      "Duration": "1000",
+      "ResoureList": [
+        {
+            "Resource" : "CPUMinFreq",
+            "Value" : "1378000"
+        },
+        {
+            "Resource" : "GPUMinFreq",
+            "Value" : "570000"
+        }
+      ]
+    },
+    {
+      "Hint": "LISTVIEW_SCROLL",
+      "ID" : "16",
+      "Duration": "10000",
+      "ResoureList": [
+        {
+            "Resource" : "CPUMinFreq",
+            "Value" : "1378000"
+        }
+      ]
+    },
+    {
+      "Hint": "APP_LAUNCH",
+      "ID" : "18",
+      "Duration": "5000",
+      "ResoureList": [
+        {
+            "Resource" : "GPUMinFreq",
+            "Value" : "570000"
+        },
+        {
+            "Resource" : "DDRMinFreq",
+            "Value" : "0"
+        }
+      ]
+    },
+    {
+      "Hint": "AMS_APP_LAUNCH_M",
+      "Duration": "4000",
+      "ResoureList": [
+        {
+            "Resource" : "GPUMinFreq",
+            "Value" : "570000"
+        },
+        {
+            "Resource" : "DDRMinFreq",
+            "Value" : "0"
+        }
+      ]
+    },
+    {
+      "Hint": "AMS_APP_LAUNCH_LM",
+      "Duration": "6000",
+      "ResoureList": [
+        {
+            "Resource" : "GPUMinFreq",
+            "Value" : "570000"
+        },
+        {
+            "Resource" : "DDRMinFreq",
+            "Value" : "0"
+        }
+      ]
+    },
+    {
+      "Hint": "AMS_APP_LAUNCH",
+      "Duration": "3000",
+      "ResoureList": [
+        {
+            "Resource" : "GPUMinFreq",
+            "Value" : "570000"
+        },
+        {
+            "Resource" : "DDRMinFreq",
+            "Value" : "0"
+        }
+      ]
+    },
+    {
+      "Hint": "AMS_APP_LAUNCH_HV",
+      "ID" : "33",
+      "Duration": "8000",
+      "ResoureList": [
+        {
+            "Resource" : "CPUMinFreq",
+            "Value" : "100%"
+        },
+        {
+            "Resource" : "GPUMinFreq",
+            "Value" : "100%"
+        },
+        {
+            "Resource" : "DDRMinFreq",
+            "Value" : "0"
+        }
+      ]
+    },
+    {
+      "Hint": "DEVICE_WAKEUP",
+      "ID" : "19",
+      "Duration": "2000",
+      "ResoureList": [
+        {
+            "Resource" : "CPUMinFreq",
+            "Value" : "1495000"
+        }
+      ]
+    },
+    {
+      "Hint": "HOME_KEY_TOUCH",
+      "ID" : "14",
+      "Duration": "1000",
+      "ResoureList": [
+        {
+            "Resource" : "CPUMinFreq",
+            "Value" : "1378000"
+        }
+      ]
+    },
+
+    {
+      "Hint": "CONTACT_SCROLL",
+      "ID" : "20",
+      "Duration": "1000",
+      "ResoureList": [
+        {
+            "Resource" : "CPUMinFreq",
+            "Value" : "1378000"
+        }
+      ]
+    },
+    {
+      "Hint": "BADGE_UPDATE",
+      "ID" : "26",
+      "Duration": "2000",
+      "ResoureList": [
+        {
+            "Resource" : "CPUMinFreq",
+            "Value" : "1378000"
+        }
+      ]
+    },
+    {
+      "Hint": "GESTURE_DETECTED",
+      "ID" : "22",
+      "Duration": "500",
+      "ResoureList": [
+        {
+            "Resource" : "CPUMinFreq",
+            "Value" : "1378000"
+        },
+        {
+            "Resource" : "DDRMinFreq",
+            "Value" : "0"
+        },
+        {
+            "Resource" : "LPMBias",
+            "Value" : "5"
+        }
+      ]
+    },
+    {
+      "Hint": "GESTURE_DETECTED_HRR",
+      "ID" : "23",
+      "Duration": "500",
+      "ResoureList": [
+        {
+            "Resource" : "CPUMinFreq",
+            "Value" : "1378000"
+        },
+        {
+            "Resource" : "DDRMinFreq",
+            "Value" : "0"
+        },
+        {
+            "Resource" : "LPMBias",
+            "Value" : "5"
+        }
+      ]
+    },
+    {
+      "Hint": "PWM_ROTATION",
+      "ID" : "15",
+      "Duration": "2000",
+      "ResoureList": [
+        {
+            "Resource" : "GPUMinFreq",
+            "Value" : "570000"
+        },
+        {
+            "Resource" : "DDRMinFreq",
+            "Value" : "0"
+        }
+      ]
+    }
+  ],
+  "Sysfs": [
+    {
+      "SysfsId": "0x00405100",
+      "SysfsName": "VMSCAN_MEM_BOOST_MODE",
+      "Path": "/sys/kernel/mm/vmscan/mem_boost_mode"
+    }
+  ]
+}

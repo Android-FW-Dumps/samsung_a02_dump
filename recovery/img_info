@@ -1,0 +1,17 @@
+kernel=kernel
+ramdisk=ramdisk
+page_size=2048
+dtbo=dtbo.img
+dt=dtb.img
+kernel_size=10587272
+ramdisk_size=10410724
+dtb_offset=0x04000000
+dtb_size=65744
+base_addr=0x40000000
+kernel_offset=0x00008000
+ramdisk_offset=0x05000000
+tags_offset=0x04000000
+dtbo_offset=0xc1407800
+cmd_line='bootopt=64S3,32S1,32S1'
+board="SRPTK19C002"
+format=gzip
